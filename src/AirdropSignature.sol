@@ -113,7 +113,7 @@ contract GuildAirdrop {
     function _checkEligibility(address _user) internal returns (bool) {
         if (_user.balance >= 1e9) {
             eligibility_status[_user] = 2;
-            console.log("user is eligible", true);
+            // console.log("user is eligible", true);
             return true; //user is eligible
         } else {
             eligibility_status[_user] = 1;
