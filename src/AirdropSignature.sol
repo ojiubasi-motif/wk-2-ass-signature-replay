@@ -192,9 +192,8 @@ contract GuildAirdrop {
         Sig calldata message,
         uint8 v,
         bytes32 r,
-        bytes32 s
-    ) public // address user
-    {
+        bytes32 s // address user
+    ) public {
         require(
             message.claimToAddress != address(0),
             "you cannot claim to address zero"

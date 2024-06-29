@@ -4,3 +4,6 @@
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "stakio/lib/forge-std"]
+	path = stakio/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
